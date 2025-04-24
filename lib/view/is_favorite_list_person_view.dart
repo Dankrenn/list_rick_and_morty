@@ -10,7 +10,6 @@ class IsFavoriteListPersonView extends StatelessWidget {
   Widget build(BuildContext context) {
     final model = Provider.of<ListPersonViewModel>(context);
     final scrollController = ScrollController();
-    final TextEditingController searchController = TextEditingController();
 
     scrollController.addListener(() {
       if (scrollController.position.pixels == scrollController.position.maxScrollExtent) {

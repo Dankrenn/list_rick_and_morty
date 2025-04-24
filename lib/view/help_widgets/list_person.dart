@@ -8,7 +8,7 @@ class ListPerson extends StatelessWidget {
   final ScrollController scrollController;
   final bool isLoadingMore;
 
-  ListPerson({
+  const ListPerson({
     super.key,
     required this.isFavorite,
     required this.scrollController,

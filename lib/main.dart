@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:hive_flutter/hive_flutter.dart';
-import 'package:list_rick_and_morty/model/person.dart';
 import 'package:list_rick_and_morty/view/home_view.dart';
 import 'package:list_rick_and_morty/view_model/list_person_view_model.dart';
 import 'package:list_rick_and_morty/view_model/setting_model.dart';
